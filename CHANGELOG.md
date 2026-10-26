@@ -10,6 +10,9 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
   README's Privacy list.
 - Albany, NY in the location list (ISNA method), now 137 cities. New York's times are up to 15 minutes off in
   Albany, NY over the year (Maghrib and Isha early in summer).
+- Indonesia: 44 more cities, 48 in all, largest first: the province capitals (for South and North Kalimantan and
+  North Maluku, their largest city: Banjarmasin, Tarakan, Ternate) and the other big cities, Bekasi, Depok and
+  Tangerang among them. Now 181 cities.
 
 ## [0.6.1] - 2026-10-25
 
