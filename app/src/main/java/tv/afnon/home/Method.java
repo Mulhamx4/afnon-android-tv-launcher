@@ -18,8 +18,16 @@ final class Method {
         this.base = base;
     }
 
-    private static Method of(CalculationMethod m) {
-        return new Method(m.name(), m);
+    private static final java.util.Map<CalculationMethod, Method> BY_ENUM = new java.util.EnumMap<>(CalculationMethod.class);
+
+    /** The one Method for an adhan-java method, so == works; made on first use for ones Afnon doesn't list. */
+    static Method of(CalculationMethod m) {
+        Method found = BY_ENUM.get(m);
+        if (found == null) {
+            found = new Method(m.name(), m);
+            BY_ENUM.put(m, found);
+        }
+        return found;
     }
 
     static final Method EGYPTIAN = of(CalculationMethod.EGYPTIAN);

@@ -1,5 +1,6 @@
 package tv.afnon.home;
 
+import com.batoulapps.adhan.CalculationMethod;
 import com.batoulapps.adhan.CalculationParameters;
 import com.batoulapps.adhan.Madhab;
 
