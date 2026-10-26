@@ -8,6 +8,8 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
 - Oman's Holy Quran Radio (إذاعة القرآن الكريم، سلطنة عُمان, ayn.om/live/164) in Settings → Radio: its public HLS
   stream on the Mangomolo CDN, which plays without a token. It adds the host `partwota.cdn.mgmlcdn.com` to the
   README's Privacy list.
+- Albany, NY in the location list (ISNA method), now 137 cities. New York's times are up to 15 minutes off in
+  Albany, NY over the year (Maghrib and Isha early in summer).
 
 ## [0.6.1] - 2026-10-25
 
