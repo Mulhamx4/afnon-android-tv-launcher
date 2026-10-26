@@ -15,6 +15,9 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
   cities start on the Awqaf method. Muscat is placed at the point the ministry's Muscat timetable matches (58.28°E).
 - Albany, NY in the location list (ISNA method), now 137 cities. New York's times are up to 15 minutes off in
   Albany, NY over the year (Maghrib and Isha early in summer).
+- Indonesia: 44 more cities, 48 in all, largest first: the province capitals (for South and North Kalimantan and
+  North Maluku, their largest city: Banjarmasin, Tarakan, Ternate) and the other big cities, Bekasi, Depok and
+  Tangerang among them. Now 181 cities.
 
 ### Changed
 - Calculation methods are `Method` objects (`Method.java`) instead of adhan-java's enum, so Afnon can define its own;
