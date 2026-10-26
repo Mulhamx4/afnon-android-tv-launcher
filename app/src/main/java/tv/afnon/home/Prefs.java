@@ -333,7 +333,7 @@ final class Prefs {
     static final Method[] METHODS = {
         Method.EGYPTIAN, Method.UMM_AL_QURA, Method.MUSLIM_WORLD_LEAGUE,
         Method.KARACHI, Method.DUBAI, Method.KUWAIT, Method.QATAR,
-        Method.NORTH_AMERICA, Method.MOON_SIGHTING_COMMITTEE, Method.SINGAPORE, Method.OMAN_AWQAF, Method.GULF};
+        Method.NORTH_AMERICA, Method.MOON_SIGHTING_COMMITTEE, Method.SINGAPORE, Method.OMAN_AWQAF};
 
     static Method method(Context c) {
         String name = of(c).getString("method", null);

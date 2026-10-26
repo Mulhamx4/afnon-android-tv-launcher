@@ -57,8 +57,7 @@ Afnon started from [cleanyourtv](https://github.com/Gathin23/cleanyourtv):
   [adhan-java](https://github.com/batoulapps/adhan-java). It ships with 192 cities in 43 countries across
   the Arab world, Asia, Europe, the Americas, Africa and Oceania, picked by region, then country, then city. Each
   city starts on the method and Asr school its mosques use; you can still choose the calculation method (Egyptian,
-  Umm al-Qura, MWL, Karachi and more, plus the Oman Ministry of Awqaf's and [Aladhan](https://aladhan.com)'s Gulf
-  Region), the Asr school (Shafi'i or Hanafi) and a Hijri date offset. Oman's cities start on the Ministry of
+  Umm al-Qura, MWL, Karachi, Oman's Ministry of Awqaf and more), the Asr school (Shafi'i or Hanafi) and a Hijri date offset. Oman's cities start on the Ministry of
   Awqaf's method, fitted to its [published timetable](https://www.mara.gov.om/arabic/calendar_page1.asp) so every
   prayer is within a minute or two of it (see `Method.OMAN_AWQAF`). The Hijri date and Ramadan mode always use the
   Umm al-Qura calendar, so where local moon sighting differs (the United States, for one) set the offset.

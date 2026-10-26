@@ -49,21 +49,15 @@ final class Method {
      */
     static final Method OMAN_AWQAF = new Method("OMAN_AWQAF", null);
 
-    /** Aladhan's "Gulf Region" method (aladhan.com, method 8): Fajr 19.5°, Isha 90 minutes after Maghrib. */
-    static final Method GULF = new Method("GULF", null);
-
     /** Fresh parameters on every call: callers set the Asr school on them. */
     CalculationParameters parameters() {
         if (base != null) return base.getParameters();
-        if (this == OMAN_AWQAF) {
-            return new CalculationParameters(18.0, 18.0, CalculationMethod.OTHER)
-                .withMethodAdjustments(new PrayerAdjustments(0, 0, 5, 5, 5, 0));
-        }
-        return new CalculationParameters(19.5, 90, CalculationMethod.OTHER);
+        return new CalculationParameters(18.0, 18.0, CalculationMethod.OTHER)
+            .withMethodAdjustments(new PrayerAdjustments(0, 0, 5, 5, 5, 0));
     }
 
     /** Minutes the method adds to Dhuhr, Asr and Maghrib (the same for all three), or 0. */
     int dayAdjustment() {
-        return this == OMAN_AWQAF ? 5 : 0;
+        return parameters().methodAdjustments.dhuhr;
     }
 }

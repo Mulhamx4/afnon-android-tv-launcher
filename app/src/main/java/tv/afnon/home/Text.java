@@ -191,7 +191,6 @@ final class Text {
             case "MOON_SIGHTING_COMMITTEE": return ar ? "لجنة رؤية الهلال" : "Moonsighting Committee";
             case "SINGAPORE": return ar ? "سنغافورة" : "Singapore";
             case "OMAN_AWQAF": return ar ? "وزارة الأوقاف والشؤون الدينية، سلطنة عُمان" : "Ministry of Awqaf, Oman";
-            case "GULF": return ar ? "منطقة الخليج (Aladhan)" : "Gulf Region (Aladhan)";
             default: return ar ? "الهيئة المصرية العامة للمساحة" : "Egyptian General Authority of Survey";
         }
     }
