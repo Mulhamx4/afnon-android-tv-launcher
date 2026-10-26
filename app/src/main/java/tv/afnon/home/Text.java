@@ -207,7 +207,7 @@ final class Text {
             : (ar ? "العشاء " : "Isha ") + trim(p.ishaAngle) + "°";
         int plus = m.dayAdjustment();
         String extra = plus == 0 ? ""
-            : ar ? " · +" + plus + " دقائق للظهر والعصر والمغرب" : " · +" + plus + " min on Dhuhr, Asr and Maghrib";
+            : ar ? " · +" + plus + " دقائق للظهر والعصر والمغرب" : " · Dhuhr, Asr and Maghrib +" + plus + " min";
         return d(fajr + " · " + isha + extra);
     }
 

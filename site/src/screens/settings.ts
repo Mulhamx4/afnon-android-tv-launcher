@@ -40,7 +40,7 @@ function methodAngles(t: Text, m: string) {
     ? t.ar ? `العشاء بعد المغرب بـ ${p.ishaInterval} دقيقة` : `Isha ${p.ishaInterval} min after Maghrib`
     : (t.ar ? 'العشاء ' : 'Isha ') + trim(p.ishaAngle) + '°';
   const plus = dayAdjustment(m);
-  const extra = plus === 0 ? '' : t.ar ? ` · +${plus} دقائق للظهر والعصر والمغرب` : ` · +${plus} min on Dhuhr, Asr and Maghrib`;
+  const extra = plus === 0 ? '' : t.ar ? ` · +${plus} دقائق للظهر والعصر والمغرب` : ` · Dhuhr, Asr and Maghrib +${plus} min`;
   return t.d(fajr + ' · ' + isha + extra);
 }
 
