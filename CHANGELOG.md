@@ -5,11 +5,21 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
 ## [Unreleased]
 
 ### Added
+- Calculation method «وزارة الأوقاف والشؤون الدينية، سلطنة عُمان» (Oman Ministry of Awqaf): Fajr and Isha at 18°, Asr
+  by the standard shadow, +5 minutes on Dhuhr, Asr and Maghrib. The ministry publishes no parameters, so they were
+  fitted to its own timetable (mara.gov.om/arabic/calendar_page1.asp): across 15 Omani cities and 2026 every prayer
+  is within 1 minute of it (2 in one case), offline as before.
+- Eleven Omani cities (Barka, Rustaq, Sur, Ibri, Al Buraimi, Khasab, Duqm, Bahla, Ibra, Samail, Adam); all Omani
+  cities start on the Awqaf method. Muscat is placed at the point the ministry's Muscat timetable matches (58.28°E).
 - Albany, NY in the location list (ISNA method), now 137 cities. New York's times are up to 15 minutes off in
   Albany, NY over the year (Maghrib and Isha early in summer).
 - Indonesia: 44 more cities, 48 in all, largest first: the province capitals (for South and North Kalimantan and
   North Maluku, their largest city: Banjarmasin, Tarakan, Ternate) and the other big cities, Bekasi, Depok and
   Tangerang among them. Now 181 cities.
+
+### Changed
+- Calculation methods are `Method` objects (`Method.java`) instead of adhan-java's enum, so Afnon can define its own;
+  the saved ids are unchanged. The web preview mirrors the new method.
 
 ## [0.6.1] - 2026-10-25
 
