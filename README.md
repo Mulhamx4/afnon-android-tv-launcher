@@ -6,7 +6,7 @@
 
 <p dir="rtl"><b>أفنون: شاشة رئيسية لتلفاز أندرويد، تدور حول يوم الصلاة: المواقيت والقبلة والأذان وإذاعة القرآن الكريم.</b></p>
 
-Arabic first (RTL) and English · Offline prayer times for 147 cities · 14 adhan voices · Qibla · 16 Quran radio stations and reciters
+Arabic first (RTL) and English · Offline prayer times for 148 cities · 14 adhan voices · Qibla · 16 Quran radio stations and reciters
 
 **[⬇ Download the APK](https://github.com/egyjs/afnon-android-tv-launcher/releases/latest/download/afnon.apk)** · [Releases](https://github.com/egyjs/afnon-android-tv-launcher/releases) · **[Try it in your browser](https://egyjs.github.io/afnon-android-tv-launcher/)**
 
@@ -54,7 +54,7 @@ Afnon started from [cleanyourtv](https://github.com/Gathin23/cleanyourtv):
 ## Features
 
 - **Prayer times, fully offline.** Calculated on the TV with
-  [adhan-java](https://github.com/batoulapps/adhan-java). It ships with 147 cities in 43 countries across
+  [adhan-java](https://github.com/batoulapps/adhan-java). It ships with 148 cities in 43 countries across
   the Arab world, Asia, Europe, the Americas, Africa and Oceania, picked by region, then country, then city. Each
   city starts on the method and Asr school its mosques use; you can still choose the calculation method (Egyptian,
   Umm al-Qura, MWL, Karachi and more, plus the Oman Ministry of Awqaf's and [Aladhan](https://aladhan.com)'s Gulf
@@ -264,7 +264,7 @@ docs/screenshots/     the images above, all from the real TV
 **أفنون** شاشة رئيسية لتلفاز أندرويد، تبدأ من يوم الصلاة. الصلاة القادمة والعدّ التنازلي في قلب
 محراب، ومواقيت اليوم الستة في الأعلى، وتطبيقاتك المفضلة تحتها. ويأتي الأذان إلى التلفاز وحده في وقته.
 
-- **مواقيت بلا إنترنت**: تُحسب على التلفاز نفسه، مع ١٤٧ مدينة في ٤٣ دولة تُختار بالمنطقة ثم الدولة ثم المدينة، وعدة طرق حساب، والمذهب الشافعي أو الحنفي في
+- **مواقيت بلا إنترنت**: تُحسب على التلفاز نفسه، مع ١٤٨ مدينة في ٤٣ دولة تُختار بالمنطقة ثم الدولة ثم المدينة، وعدة طرق حساب، والمذهب الشافعي أو الحنفي في
   العصر، وتعديل التاريخ الهجري. التاريخ الهجري ووضع رمضان يعتمدان دائمًا على تقويم أم القرى، فإن اختلفت رؤية الهلال
   المحلية (كما في الولايات المتحدة) فاضبط التعديل.
 - **القبلة واتجاه الغرفة**: اتجاه القبلة من مدينتك، وإعداد لمرة واحدة لاتجاه التلفاز، فتقول لك الشاشة

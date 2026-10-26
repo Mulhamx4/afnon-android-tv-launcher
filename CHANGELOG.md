@@ -13,6 +13,8 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
   it matches Aladhan's own times for Muscat to within 2 minutes.
 - Eleven Omani cities (Barka, Rustaq, Sur, Ibri, Al Buraimi, Khasab, Duqm, Bahla, Ibra, Samail, Adam); all Omani
   cities start on the Awqaf method. Muscat is placed at the point the ministry's Muscat timetable matches (58.28°E).
+- Albany, NY in the location list (ISNA method), now 137 cities. New York's times are up to 15 minutes off in
+  Albany, NY over the year (Maghrib and Isha early in summer).
 
 ### Changed
 - Calculation methods are `Method` objects (`Method.java`) instead of adhan-java's enum, so Afnon can define its own;

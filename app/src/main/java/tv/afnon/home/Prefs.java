@@ -152,6 +152,7 @@ final class Prefs {
         new City("mukalla", "المكلا", "Mukalla", "اليمن", "Yemen", 14.5333, 49.1333, MWL),
         // United States & Canada
         new City("newyork", "نيويورك", "New York", "الولايات المتحدة", "United States", 40.7128, -74.0060, NA),
+        new City("albany", "ألباني، نيويورك", "Albany, NY", "الولايات المتحدة", "United States", 42.6526, -73.7562, NA),
         new City("chicago", "شيكاغو", "Chicago", "الولايات المتحدة", "United States", 41.8781, -87.6298, NA),
         new City("dallas", "دالاس", "Dallas", "الولايات المتحدة", "United States", 32.7767, -96.7970, NA),
         new City("houston", "هيوستن", "Houston", "الولايات المتحدة", "United States", 29.7604, -95.3698, NA),
