@@ -155,6 +155,7 @@ public class MainActivity extends Screen {
 
     @Override
     protected void onResume() {
+        RemoteKeys.ensureOn(this);
         if (!builtApps.equals(appsKey())) build();
         lastMinute = -1;
         updateWifi();
