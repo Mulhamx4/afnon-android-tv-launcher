@@ -207,6 +207,14 @@ final class Prefs {
         new City("houston", "هيوستن", "Houston", "الولايات المتحدة", "United States", 29.7604, -95.3698, NA),
         new City("losangeles", "لوس أنجلوس", "Los Angeles", "الولايات المتحدة", "United States", 34.0522, -118.2437, NA),
         new City("toronto", "تورونتو", "Toronto", "كندا", "Canada", 43.6532, -79.3832, NA),
+        new City("montreal", "مونتريال", "Montreal", "كندا", "Canada", 45.5019, -73.5674, NA),
+        new City("calgary", "كالغاري", "Calgary", "كندا", "Canada", 51.0447, -114.0719, NA),
+        new City("ottawa", "أوتاوا", "Ottawa", "كندا", "Canada", 45.4215, -75.6972, NA),
+        new City("edmonton", "إدمونتون", "Edmonton", "كندا", "Canada", 53.5461, -113.4938, NA),
+        new City("winnipeg", "وينيبيغ", "Winnipeg", "كندا", "Canada", 49.8951, -97.1384, NA),
+        new City("mississauga", "ميسيساغا", "Mississauga", "كندا", "Canada", 43.5890, -79.6441, NA),
+        new City("vancouver", "فانكوفر", "Vancouver", "كندا", "Canada", 49.2827, -123.1207, NA),
+        new City("halifax", "هاليفاكس", "Halifax", "كندا", "Canada", 44.6488, -63.5752, NA),
 
         // India
         new City("bangalore", "بنغالور", "Bengaluru", "الهند", "India", 12.9716, 77.5946, IN, HANAFI),
@@ -321,6 +329,7 @@ final class Prefs {
         new City("rome", "روما", "Rome", "إيطاليا", "Italy", 41.9028, 12.4964, MWL),
         new City("madrid", "مدريد", "Madrid", "إسبانيا", "Spain", 40.4168, -3.7038, MWL),
         new City("sarajevo", "سراييفو", "Sarajevo", "البوسنة والهرسك", "Bosnia and Herzegovina", 43.8563, 18.4131, MWL),
+        new City("copenhagen", "كوبنهاغن", "Copenhagen", "الدنمارك", "Denmark", 55.6761, 12.5683, MWL),
 
         // Africa
         new City("nairobi", "نيروبي", "Nairobi", "كينيا", "Kenya", -1.2921, 36.8219, MWL),
@@ -360,7 +369,7 @@ final class Prefs {
         {"India", "Pakistan", "Bangladesh", "Sri Lanka", "Maldives", "Indonesia", "Malaysia", "Singapore", "Brunei",
             "Thailand", "Japan", "South Korea", "Turkey"},
         {"United Kingdom", "France", "Germany", "Netherlands", "Belgium", "Austria", "Switzerland", "Italy", "Spain",
-            "Bosnia and Herzegovina"},
+            "Bosnia and Herzegovina", "Denmark"},
         {"United States", "Canada"},
         {"Kenya", "Nigeria", "South Africa"},
         {"Australia", "New Zealand"},
