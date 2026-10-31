@@ -5,6 +5,8 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
 ## [Unreleased]
 
 ### Added
+- Canada: Montreal, Calgary, Ottawa, Edmonton, Winnipeg, Mississauga, Vancouver and Halifax (#25), on ISNA like
+  Toronto. Denmark: Copenhagen (#23), on MWL. Now 245 cities in 45 countries.
 - Morocco: calculation method «وزارة الأوقاف والشؤون الإسلامية، المملكة المغربية» (Ministry of Habous) and 44 cities,
   capital first then by size (Rabat, Casablanca, Fes, Tangier, Marrakech … Ifrane, Zagora), 236 cities in all. The
   ministry publishes times, not its method, so the rules were recovered from its tables (habous.gov.ma, October 2026
