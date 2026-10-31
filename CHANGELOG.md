@@ -8,6 +8,8 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
 - Oman's Holy Quran Radio (إذاعة القرآن الكريم، سلطنة عُمان, ayn.om/live/164) in Settings → Radio: its public HLS
   stream on the Mangomolo CDN, which plays without a token. It adds the host `partwota.cdn.mgmlcdn.com` to the
   README's Privacy list.
+- Canada: Montreal, Calgary, Ottawa, Edmonton, Winnipeg, Mississauga, Vancouver and Halifax (#25), on ISNA like
+  Toronto. Denmark: Copenhagen (#23), on MWL. Now 245 cities in 45 countries.
 - Morocco: calculation method «وزارة الأوقاف والشؤون الإسلامية، المملكة المغربية» (Ministry of Habous) and 44 cities,
   capital first then by size (Rabat, Casablanca, Fes, Tangier, Marrakech … Ifrane, Zagora), 236 cities in all. The
   ministry publishes times, not its method, so the rules were recovered from its tables (habous.gov.ma, October 2026
