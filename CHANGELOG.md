@@ -8,11 +8,35 @@ All notable changes to Afnon. Versions match `versionName` in `app/build.gradle`
 - Oman's Holy Quran Radio (إذاعة القرآن الكريم، سلطنة عُمان, ayn.om/live/164) in Settings → Radio: its public HLS
   stream on the Mangomolo CDN, which plays without a token. It adds the host `partwota.cdn.mgmlcdn.com` to the
   README's Privacy list.
+
+## [0.7] - 2026-10-28
+
+### Added
+- Calculation method «وزارة الأوقاف والشؤون الدينية، سلطنة عُمان» (Oman Ministry of Awqaf): Fajr and Isha at 18°, Asr
+  by the standard shadow, +5 minutes on Dhuhr, Asr and Maghrib. The ministry publishes no parameters, so they were
+  fitted to its own timetable (mara.gov.om/arabic/calendar_page1.asp): across 15 Omani cities and 2026 every prayer
+  is within 1 minute of it (2 in one case), offline as before.
+- Eleven Omani cities (Barka, Rustaq, Sur, Ibri, Al Buraimi, Khasab, Duqm, Bahla, Ibra, Samail, Adam); all Omani
+  cities start on the Awqaf method. Muscat is placed at the point the ministry's Muscat timetable matches (58.28°E).
 - Albany, NY in the location list (ISNA method), now 137 cities. New York's times are up to 15 minutes off in
   Albany, NY over the year (Maghrib and Isha early in summer).
 - Indonesia: 44 more cities, 48 in all, largest first: the province capitals (for South and North Kalimantan and
   North Maluku, their largest city: Banjarmasin, Tarakan, Ternate) and the other big cities, Bekasi, Depok and
   Tangerang among them. Now 181 cities.
+
+### Fixed
+- The call to prayer no longer stays off after Afnon is force-stopped. Android drops a force-stopped app's
+  accessibility service from the enabled list, and TV cleaners force-stop apps (Xiaomi's TV Manager), so the
+  remote buttons service and the adhan were found off on a Xiaomi MiTV-MOOQ0 and on the TCL 55P7K. Home now turns
+  it back on (with setup's WRITE_SECURE_SETTINGS grant), unless it was turned off in Settings.
+- The app list no longer shows a TV's built-in phone-only entries: on a Xiaomi MiTV-MOOQ0, Clock, MediaTek's
+  Netflix watcher ("com.mediatek.tv.serv…") and a vendor disclaimer screen were on Home's More row. A preinstalled,
+  never-updated system app with no TV entry is left out unless Afnon names it or it is a favourite; sideloaded
+  phone apps still show. Nothing changes on the TCL, where every app has a TV entry.
+
+### Changed
+- Calculation methods are `Method` objects (`Method.java`) instead of adhan-java's enum, so Afnon can define its own;
+  the saved ids are unchanged. The web preview mirrors the new method.
 
 ## [0.6.1] - 2026-10-25
 
@@ -212,7 +236,8 @@ First public release.
 - Screensaver, on-TV settings and remote button mapping.
 - Arabic (RTL) first, with English.
 
-[Unreleased]: https://github.com/egyjs/afnon-android-tv-launcher/compare/v0.6.1...HEAD
+[Unreleased]: https://github.com/egyjs/afnon-android-tv-launcher/compare/v0.7...HEAD
+[0.7]: https://github.com/egyjs/afnon-android-tv-launcher/compare/v0.6.1...v0.7
 [0.6.1]: https://github.com/egyjs/afnon-android-tv-launcher/compare/v0.6...v0.6.1
 [0.6]: https://github.com/egyjs/afnon-android-tv-launcher/compare/v0.5...v0.6
 [0.5]: https://github.com/egyjs/afnon-android-tv-launcher/compare/v0.4...v0.5
