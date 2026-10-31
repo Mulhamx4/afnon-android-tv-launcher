@@ -129,7 +129,7 @@ final class Habous {
         return out;
     }
 
-    /** Asr in hours UTC, its altitude from the declination at Asr (two passes are enough to settle on it). */
+    /** Asr in hours UTC, its altitude from the declination at Asr (three passes are enough to settle on it). */
     private static double asr(SolarTime s, Coordinates where, DateComponents day, double shadow) {
         double jd = julianDay(day.year, day.month, day.day);
         double h = s.transit + 3;
